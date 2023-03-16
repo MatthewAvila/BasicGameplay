@@ -542,11 +542,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.01
+  far clip plane: 999.26
   field of view: 100.2
-  orthographic: 0
-  orthographic size: 10
+  orthographic: 1
+  orthographic size: -13.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -569,14 +569,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.684713, y: -0.0024952493, z: 0.0022527883, w: 0.72880507}
-  m_LocalPosition: {x: -0.05, y: 13.65, z: 11.06}
+  m_LocalRotation: {x: -0.0026762034, y: -0.7073964, z: 0.7068084, w: -0.0022624251}
+  m_LocalPosition: {x: 0.13, y: 13.51, z: 11.74}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 86.427, y: -0.508, z: -0.123}
+  m_LocalEulerAnglesHint: {x: 89.944, y: 0, z: -539.633}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +893,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2736853552079586578, guid: aa56615a101a79b40bd0cbaed185209f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3812873
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736853552079586578, guid: aa56615a101a79b40bd0cbaed185209f, type: 3}
+      propertyPath: m_Size.z
+      value: 0.38474268
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736853552079586578, guid: aa56615a101a79b40bd0cbaed185209f, type: 3}
+      propertyPath: m_Center.x
+      value: -0.005367082
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736853552079586578, guid: aa56615a101a79b40bd0cbaed185209f, type: 3}
+      propertyPath: m_Center.y
+      value: 0.19076577
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736853552079586578, guid: aa56615a101a79b40bd0cbaed185209f, type: 3}
+      propertyPath: m_Center.z
+      value: 0.05142159
+      objectReference: {fileID: 0}
     - target: {fileID: 6837215684748473240, guid: aa56615a101a79b40bd0cbaed185209f, type: 3}
       propertyPath: m_RootOrder
       value: 1
